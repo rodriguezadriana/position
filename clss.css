@@ -1,38 +1,43 @@
 div{
 
 	border-style: dotted;
-	height:200px;
-	width: 200px;
+	
 	
 }
 .rojo{
-	position: relative;
-	left:0px;
-	top: 0px;
+	position: static;
+	width: 500px;
+	height:500px;
 	background-color: red;
-}
+	
 
+}
+.verde{
+	background-color: green;
+	position: relative;
+	left: 150px;
+	top: 150px;
+	width: 200px;
+	height: 200px;
+}
 
 .amarillo{
 	background-color: yellow;
 	position: absolute;
     
-    left: 200px;
+    width: 40px;
+    height: 40px;
     
 
 
 }
 
-.verde{
-	background-color: green;
-	position: relative;
-	left: 0px;
-	bottom: 0px;
-	width: 500px;
-}
+
 .gris{
 	background-color: #737373;
 	position: relative;
 	right:  0px;
 	bottom: 0px;
+	width: 200px;
+	height: 200px;
 }
