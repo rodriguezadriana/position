@@ -6,7 +6,7 @@ div{
 	
 }
 .rojo{
-	position: absolute;
+	position: relative;
 	left:0px;
 	top: 0px;
 	background-color: red;
@@ -16,8 +16,8 @@ div{
 .amarillo{
 	background-color: yellow;
 	position: absolute;
-    top:  0px;
-    right:  0px;
+    top:  210px;
+    left: 210px;
     
 
 
@@ -25,13 +25,13 @@ div{
 
 .verde{
 	background-color: green;
-	position: absolute;
+	position: relative;
 	left: 0px;
 	bottom: 0px;
 }
 .gris{
 	background-color: #737373;
-	position: absolute;
+	position: relative;
 	right:  0px;
 	bottom: 0px;
 }
