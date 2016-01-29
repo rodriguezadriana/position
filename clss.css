@@ -6,17 +6,18 @@ div{
 	
 }
 .rojo{
-	position: static;
-	margin-left: 40px;
+	position: absolute;
+	left:0px;
+	top: 0px;
 	background-color: red;
 }
 
 
 .amarillo{
 	background-color: yellow;
-	position: relative;
-    left: 200px;
-    top: 0px;
+	position: absolute;
+    top:  0px;
+    right:  0px;
     
 
 
@@ -24,6 +25,13 @@ div{
 
 .verde{
 	background-color: green;
-	position: relative;
-	left: 40px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.gris{
+	background-color: #737373;
+	position: absolute;
+	right:  0px;
+	bottom: 0px;
 }
