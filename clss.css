@@ -16,8 +16,8 @@ div{
 .amarillo{
 	background-color: yellow;
 	position: absolute;
-    top:  210px;
-    left: 210px;
+    
+    left: 200px;
     
 
 
@@ -28,6 +28,7 @@ div{
 	position: relative;
 	left: 0px;
 	bottom: 0px;
+	width: 500px;
 }
 .gris{
 	background-color: #737373;
